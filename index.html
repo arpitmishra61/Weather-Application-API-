@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      rel="stylesheet"
+      href="https://bootswatch.com/4/cosmo/bootstrap.min.css"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
+      integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/"
+      crossorigin="anonymous"
+    />
+    <title>Weather</title>
+  </head>
+  <body
+    style="background-image: url(images/background.jpeg);background-size: cover"
+  >
+    <div
+      class="card  mt-4 p-4 "
+      style="margin:0px 20%;background-color: rgba(102, 169, 172, 0.747)"
+    >
+      <div class="text-center">
+        <form action="" class="mb-4  d-inline-block form-inline ">
+          <input
+            type="text"
+            class="form-control inputData"
+            placeholder="city name e.g new delhi"
+            value="delhi"
+          />
+          <button class="btn btn-dark search form-control ">Search</button>
+        </form>
+      </div>
+      <div class="card bg-light text-center">
+        <h1 class="display-4">Weather Anywhere Anytime.</h1>
+        <p class="lead">get accurate weather conditions and predictions.</p>
+      </div>
+    </div>
+
+    <div class=" ui mt-4 container py-4"></div>
+    <script src="weatherAPI.js"></script>
+    <script src="ui.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>
+<!-- <style>
+  p{
+    background-color: rgb(22, 22, 22)
+  }
+</style> -->
